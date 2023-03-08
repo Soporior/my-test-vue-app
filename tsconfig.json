@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+     "module": "ESNext",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      // "allowJs": true,
+      "moduleResolution":"node",//解决Couldn't find module
+      "lib":["ES2015","DOM"],
+      
+    },
+    "exclude": ["node_modules"]
+
+}
+  
