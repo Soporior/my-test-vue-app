@@ -7,7 +7,7 @@
  $*/
  import { RouteRecordRaw } from 'vue-router'
  const route: Array<RouteRecordRaw>= [
-  {path:'/',redirect:"/mocktest"},
+  {path:'/',redirect:"/draw"},
   { path: '/tester', component: () => import('@/components/tester/tester.vue') },
   { path: '/mocktest', component: ()=>import("@/components/mockTester/mockTester.vue")},
   { path: '/draw', component: ()=>import("@/page/imageTool/imageTool.vue")},
