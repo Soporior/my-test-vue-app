@@ -15,3 +15,10 @@ import router from '@/config/router/router';
 
 createApp(App).use(ElementPlus).use(router)
 .mount('#app')
+
+
+// if (import.meta.env.MODE === 'development') {
+
+    
+//   setupProdMockServer();
+// }

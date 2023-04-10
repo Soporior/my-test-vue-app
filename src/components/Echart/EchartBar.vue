@@ -4,10 +4,10 @@
 
   </div>
 </template>
-<script setup>
+<script setup lang="ts">
 import * as echarts from 'echarts';
 import { onMounted } from 'vue';
-import testData from "../../../public/getAllGeojsonData.js"
+import testData from "../../../public/getAllGeojsonData.ts"
 
 let option;
 

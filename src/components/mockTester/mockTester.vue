@@ -5,14 +5,14 @@
 </template>
 
 <script lang="ts" setup>
-import api from "@/config/mockApi/api"
 import axios from "axios";
+console.log(import.meta.env)
 const fun =()=>{
 //     api.getData({}).then(res=>{
 //     console.log(res);
     
 // })
-axios.get("/api/text").then(res=>{
+axios.get("/api/get").then(res=>{
     console.log(res);
     
 })

@@ -3,13 +3,25 @@
      "module": "ESNext",
       "baseUrl": ".",
       "paths": {
-        "@/*": ["src/*"]
+        "@/*": [
+          "src/*"
+        ],
+        "public/*": [
+          "public/*"
+        ]
       },
       // "allowJs": true,
       "moduleResolution":"node",//解决Couldn't find module
       "lib":["ES2015","DOM"],
       
     },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.d.ts",
+      "src/**/*.tsx",
+      "src/**/*.vue",
+      "public/**/*.ts"
+    ],
     "exclude": ["node_modules"]
 
 }
